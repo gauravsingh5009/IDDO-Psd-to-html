@@ -18,7 +18,7 @@ $(function(){
        $(".collapse").slideToggle()
     });
     if(screen.width<768){
-        $(".collapse a").click(function(e){
+        $(".collapse a").click(function(){
             $(".collapse").slideUp();
             $("header .mob").removeClass("active");
          });
